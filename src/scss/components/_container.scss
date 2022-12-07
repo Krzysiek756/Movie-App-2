@@ -174,19 +174,25 @@
         gap: 20px;
         max-width: 500px;
 
-        @include sm {
-            padding-top: 120px;
-            padding-bottom: 60px;
 
+        padding-top: 120px;
+        padding-bottom: 60px;
+
+        @include md {
+            padding-top: 180px;
+            margin: 0 30px;
         }
 
-
+        @include lg {
+            padding-top: 240px;
+        }
 
 
 
 
         @include lg {
             margin: 0 30px;
+
         }
 
         @include xxl {
