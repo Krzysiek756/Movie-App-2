@@ -12,6 +12,8 @@
     gap: 20px;
     font-weight: bold;
     margin-bottom: 50px;
+    line-height: 40px;
+    text-align: center;
 
 
     .breaker__subtitle {
@@ -149,7 +151,7 @@
     background: url("../img/hero-bg.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: fit-content;
 
 
 
@@ -168,10 +170,17 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        height: 100vh;
+
         gap: 20px;
         max-width: 500px;
-        margin: 0 20px;
+
+        @include sm {
+            padding-top: 120px;
+            padding-bottom: 60px;
+
+        }
+
+
 
 
 
@@ -230,6 +239,7 @@
         margin-bottom: 10px;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
 
 
     }
@@ -241,7 +251,9 @@
         text-transform: uppercase;
         align-items: center;
         font-weight: bold;
-        justify-content: center;
+        justify-content: flex-start;
+
+
 
 
 
@@ -391,6 +403,7 @@
         justify-content: center;
         gap: 20px;
         margin-bottom: 50px;
+        flex-wrap: wrap;
     }
 
 
@@ -437,6 +450,7 @@
 
     &__content {
         margin: 0 20px;
+        background-color: $citrine;
 
 
 
@@ -674,7 +688,7 @@
 
 
         .card__wrapper {
-            width: 400px;
+            max-width: 400px;
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -934,7 +948,8 @@
         color: $eerie-black;
         font-weight: 700;
         font-size: 2.8rem;
-        line-height: 1.2px;
+        line-height: 40px;
+
     }
 
     &__subtitle {
