@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <!--HEAD--><!DOCTYPE html>
+  <!-- HEAD-->
+  <head>
+    <title>Movie App Filmlane</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/scss/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="assets/css/main.min.css">
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="container">
+        <div class="row">   
+          <div class="header__content">   
+            <div class="header__logo"><a href="index.html"> 
+                <div class="logo__img"><img src="assets/img/logo.svg" alt="Filmane logo"></div></a></div>
+            <nav class="menu">
+              <div class="nav__logo"> <a href="#"> 
+                  <div class="logo__img"> <img src="assets/img/logo.svg" alt="Filmane logo"></div></a></div>
+              <div class="menu__list"> 
+                <div class="menu__item">    <a href="index.html">home   </a></div>
+                <div class="menu__item">    <a href="index.html">movie                  </a></div>
+                <div class="menu__item">    <a href="index.html">tv show                   </a></div>
+                <div class="menu__item">    <a href="index.html">web services                   </a></div>
+                <div class="menu__item">    <a href="index.html">pricing  </a></div>
+                <div class="menu__icon"> <a href="#"> <i class="ri-twitter-fill"></i></a><a href="#"> <i class="ri-facebook-circle-fill">  </i></a><a href="#"> <i class="ri-pinterest-fill">  </i></a><a href="#"> <i class="ri-instagram-fill"> </i></a><a href="#"> <i class="ri-youtube-fill">             </i></a></div>
+              </div>
+            </nav>
+            <div class="header__action"> 
+              <button class="search-btn"> <i class="ri-search-line">      </i></button>
+              <div class="header__lang"><i class="ri-global-line"></i>
+                <label for="language">
+                  <ion-icon name="globe-outline"></ion-icon>
+                </label>
+                <select class="select__header" id="language" name="language">
+                  <option value="en">EN</option>
+                  <option value="au">AU</option>
+                  <option value="ar">AR</option>
+                  <option value="tu">TU</option>
+                  <option value="pl">PL </option>
+                </select>
+              </div>
+              <button class="btn btn--primary"><span>Sign in    </span></button>
+            </div>
+            <div class="burger-navbar">
+              <button class="hamburger hamburger--collapse" id="buttonToggle" type="button"><span class="hamburger-box"></span><span class="hamburger-inner"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Movie-->
+    <div class="movie-sp">  
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col-12 col-lg-12"> 
+            <div class="movie-sp__content"> 
+              <div class="movie-sp__banner"> 
+                <div class="movie-sp__wrapper">   
+                  <div class="movie-sp__img"> <img src="assets/img/movie-4.png" alt="">
+                    <div class="btn--play"> <a href=""> </a><i class="ri-play-circle-line">    </i></div>
+                  </div>
+                  <div class="movie-sp__information"> 
+                    <div class="meta-name">
+                      <div class="meta-name__subtitle">New Episodes</div>
+                      <div class="meta-name__title">Free <span>Guy     </span></div>
+                    </div>
+                    <div class="box-name-wrapper">       
+                      <div class="badge-box">
+                        <div class="badge-box__pg">pg 13</div>
+                        <div class="badge-box__quality">HD </div>
+                      </div>
+                      <div class="movie-category"><a href="">Comedy </a><a href="">Action </a><a href="">Adventure</a><a href="">Science Fiction </a></div>
+                    </div>
+                    <div class="movie-data"> 
+                      <div class="movie-data__rating">     <i class="ri-calendar-todo-line"></i><span>2022    </span></div>
+                      <div class="movie-data__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    </div>
+                    <h3 class="movie-description">A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.</h3>
+                    <div class="movie-action"> 
+                      <div class="movie-action__icon"> <i class="ri-share-line"></i><span>Share</span></div>
+                      <div class="movie-action__text"> 
+                        <div class="movie-action__title">Prime Video</div>
+                        <div class="movie-action__subtitle">Streaming Channels</div>
+                      </div>
+                      <div class="movie-action__button">
+                        <div class="btn btn--movie"> <i class="ri-arrow-right-s-fill"></i><span>watch now               </span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="movie__download"> 
+                  <div class="btn btn--services btn--movies-detailis"> <i class="ri-download-fill"></i><span>download             </span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Tv Series-->
+    <div class="tv-series">
+      <div class="container">
+        <div class="row">   
+          <div class="col-12 col-lg-12">
+            <div class="tv-series__content"> 
+              <div class="tv-series__text">
+                <div class="breaker tv-series__breaker">
+                  <h3 class="breaker__subtitle">BEST TV SERIES</h3>
+                  <h1 class="breaker__title">World Best TV Series</h1>
+                </div>
+              </div>
+              <div class="tv-series__movies">    
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-1.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">Sonic the Hedgehog 2</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">4K </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>8.5    </span></div>
+                  </div>
+                </div>
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-2.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">Morbius</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">HD </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>8.5    </span></div>
+                  </div>
+                </div>
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-3.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">The Adam Project</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">HD </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>10    </span></div>
+                  </div>
+                </div>
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-4.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">Free Guy</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">HD </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>9    </span></div>
+                  </div>
+                </div>
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-5.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">The Batman</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">HD </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>8.5    </span></div>
+                  </div>
+                </div>
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-6.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">Uncharted</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">HD </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>8.5    </span></div>
+                  </div>
+                </div>
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-7.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">Death on the Nile</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">HD </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>137min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>8.5    </span></div>
+                  </div>
+                </div>
+                <div class="tv-series__movie movie"> 
+                  <div class="movie__img"> <img src="assets/img/movie-8.png" alt=""></div>
+                  <div class="movie__description"> 
+                    <div class="movie__title">The King's Man</div>
+                    <div class="movie__data">2022      </div>
+                  </div>
+                  <div class="movie__information">
+                    <div class="movie__quality">HD </div>
+                    <div class="movie__data"> <i class="ri-time-line"> </i><span>127min         </span></div>
+                    <div class="movie__rating">     <i class="ri-star-fill"></i><span>6    </span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FOOTER-->
+    <!--footer-->
+    <footer class="footer"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col-12 col-lg-12">
+            <div class="footer__content"> 
+              <div class="footer__top"> 
+                <div class="footer__brand"> 
+                  <div class="footer__logo"> <a href="#"> 
+                      <div class="logo__img"><img src="assets/img/logo.svg" alt="Filmane logo"></div></a></div>
+                  <ul class="link__list"> 
+                    <li class="link__element"> <a href="">Home </a></li>
+                    <li class="link__element"> <a href="">Movie </a></li>
+                    <li class="link__element"> <a href="">Tv show  </a></li>
+                    <li class="link__element"> <a href="">web services  </a></li>
+                    <li class="link__element"> <a href="">pricing      </a></li>
+                  </ul>
+                </div>
+                <div class="footer__wrapper">
+                  <ul class="quiclink__list">   
+                    <li class="quiclink__element"> <a href="">Home </a></li>
+                    <li class="quiclink__element"> <a href="">Movie </a></li>
+                    <li class="quiclink__element"> <a href="">Tv show  </a></li>
+                    <li class="quiclink__element"> <a href="">web services  </a></li>
+                  </ul>
+                  <ul class="social__list">   
+                    <li class="social__element"> <a href=""> <i class="ri-facebook-circle-fill"></i></a></li>
+                    <li class="social__element"> <a href=""> <i class="ri-twitter-fill"></i></a></li>
+                    <li class="social__element"> <a href=""> <i class="ri-pinterest-fill"></i></a></li>
+                    <li class="social__element"> <a href=""> <i class="ri-instagram-fill"> </i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-bottom"> 
+      <div class="container">                             
+        <div class="row"> 
+          <div class="col-12 col-lg-12">
+            <div class="footer-bottom__content">    
+              <h3 class="footer-bottom__copyright">The test site was made by<span>Krzysztof Siek  </span></h3>
+              <div class="footer-bottom__logos"> <img src="src/img/footer-bottom-img.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>

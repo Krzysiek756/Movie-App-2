@@ -1,0 +1,59 @@
+header.header
+    .container
+        .row    
+            .header__content    
+                .header__logo
+                     a(href="index.html") 
+                        .logo__img
+                            img(src="assets/img/logo.svg", alt="Filmane logo")
+                nav.menu
+                    .nav__logo 
+                        a(href="#") 
+                            .logo__img  
+                                img(src="assets/img/logo.svg", alt="Filmane logo")       
+                    .menu__list 
+                        .menu__item     
+                            a(href="index.html") home   
+                        .menu__item     
+                            a(href="index.html") movie                  
+                        .menu__item     
+                            a(href="index.html") tv show                   
+                        .menu__item     
+                            a(href="index.html") web services                   
+                        .menu__item     
+                            a(href="index.html") pricing  
+
+                        .menu__icon 
+                            a(href="#") 
+                                i.ri-twitter-fill
+                            a(href="#") 
+                                i.ri-facebook-circle-fill   
+                            a(href="#") 
+                                i.ri-pinterest-fill   
+                            a(href="#") 
+                                i.ri-instagram-fill  
+                            a(href="#") 
+                                i.ri-youtube-fill              
+
+                .header__action 
+                    button.search-btn 
+                        i.ri-search-line       
+                    .header__lang
+                        i.ri-global-line
+                        label(for='language')
+                            ion-icon(name='globe-outline')
+                        select.select__header#language(name='language')
+                            option(value='en') EN
+                            option(value='au') AU
+                            option(value='ar') AR
+                            option(value='tu') TU
+                            option(value='pl') PL 
+                    button.btn.btn--primary
+                        span Sign in    
+
+                .burger-navbar
+                    button#buttonToggle.hamburger.hamburger--collapse(type='button')
+                        span.hamburger-box
+                        span.hamburger-inner
+
+

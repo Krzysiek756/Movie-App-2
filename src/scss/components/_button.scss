@@ -1,0 +1,236 @@
+.btn {
+    display: flex;
+    align-items: center;
+    border: 2px solid $citrine;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $rich-black-fogra-39;
+    border-radius: 50px;
+    padding: 14px 35px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: 2px;
+
+
+
+    &--header,
+    &--primary,
+    &--cta {
+        padding: 16px 30px;
+        width: fit-content;
+        gap: 5px;
+
+        i {
+            font-size: 20px;
+        }
+
+        &:hover {
+            background-color: $citrine;
+            color: $rich-black-fogra-39;
+            transition: 0.3s;
+        }
+
+
+    }
+
+
+    &--category {
+
+        background-color: #21232B;
+        border: 1px solid $gunmetal-1;
+
+        width: fit-content;
+        padding: 12px 26px;
+
+
+        span {
+            text-transform: capitalize;
+        }
+
+
+    }
+
+    &--services {
+        display: flex;
+        gap: 5px;
+        background-color: $citrine;
+        width: fit-content;
+        letter-spacing: 5px;
+        font-weight: 400;
+        padding: 28px 35px;
+        border-radius: 6px;
+        transform: rotate(0.25turn);
+        transform-origin: bottom right;
+
+        span {
+            color: $black;
+        }
+
+        i {
+            color: $black;
+            font-size: 25px;
+            order: 1;
+            transform: rotate(0.75turn);
+        }
+
+    }
+
+    &--movies-detailis {
+
+        font-weight: bold;
+        padding: 20px 35px;
+
+        transform: rotate(0);
+
+        span {
+            color: $raisin-black;
+        }
+
+        i {
+            margin-left: 5px;
+            color: $raisin-black;
+            transform: rotate(1turn);
+            font-size: 22px;
+        }
+
+        @include xl {
+
+            transform: rotate(0.25turn) translateY(100%);
+            transform-origin: bottom right;
+
+            padding: 40px 40px;
+
+            i {
+
+                transform: rotate(0.75turn);
+
+            }
+
+
+        }
+
+    }
+
+    &--top-rated {
+        width: fit-content;
+        text-transform: uppercase;
+        padding: 17px 25px;
+        border-radius: 4px;
+        box-shadow: inset 0px 0px 10px 0px #2D2D2D;
+        border-color: black;
+        color: $gray-x;
+
+    }
+
+    &--cta {
+        border: 2px solid $eerie-black;
+        padding: 15px 34px;
+        border-radius: 4px;
+
+        span {
+            color: $citrine;
+            font-weight: 700px;
+        }
+
+        &:hover {
+            span {
+                color: $black;
+            }
+        }
+    }
+
+    &--movie {
+
+        padding: 13px 26px;
+        gap: 5px;
+        letter-spacing: 1px;
+        background-color: transparent;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            font-size: 1.2rem;
+        }
+
+        i {
+            font-size: 30px;
+        }
+
+        &:hover {
+            background-color: $citrine;
+            color: $black;
+        }
+
+
+    }
+}
+
+
+
+
+.select__header {
+    font-size: 1.6rem;
+    display: flex;
+    border: none;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+
+    option {
+        background-color: $white;
+        color: $black;
+    }
+
+}
+
+
+.search-btn {
+    border: none;
+    background-color: transparent;
+    color: $white;
+    font-size: 2rem;
+    cursor: pointer;
+
+    i {
+        display: flex;
+    }
+
+
+}
+
+//Cta Form
+
+
+.cta__form {
+
+
+    input {
+        color: $eerie-black;
+        font-size: 1.9rem;
+        padding: 18px 32px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0px 14px 23px -5px rgba(66, 68, 90, 1);
+        display: flex;
+
+    }
+}
+
+//Movies Detalis BTN
+
+.btn--play {
+
+    z-index: 2;
+    cursor: pointer;
+
+    i {
+
+        font-size: 120px;
+        cursor: pointer;
+    }
+
+
+}
