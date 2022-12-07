@@ -17,6 +17,16 @@ body {
     position: relative;
     color: $white;
     overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    @include md {
+        &::-webkit-scrollbar {
+            display: block;
+        }
+    }
 }
 
 
