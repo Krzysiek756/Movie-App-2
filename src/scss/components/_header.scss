@@ -63,11 +63,13 @@ a {
     &__content {
         width: 100%;
 
-        margin: 0 15px;
+        margin: 10px 15px;
+
+
 
         @include sm {
-            margin: 0 30px;
-            padding-bottom: 50px;
+            margin: 10px 30px;
+
         }
 
 
