@@ -5,6 +5,8 @@
 
 html {
     font-size: 10px;
+    width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -13,10 +15,9 @@ body {
     height: 100vh;
     font-size: 16px;
     line-height: 19px;
-    overflow-x: hidden;
     position: relative;
     color: $white;
-    overflow-x: hidden;
+
 
     &::-webkit-scrollbar {
         display: none;
@@ -166,7 +167,7 @@ a {
         width: 300px;
         background-color: #171D21;
         top: -25px;
-        right: calc(0px - 20px);
+        right: calc(0px - 40px);
         height: calc(100vh + 10px);
         transform: translateX(100%);
         transition: 0.3s;
